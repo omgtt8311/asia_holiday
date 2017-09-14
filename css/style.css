@@ -1,0 +1,262 @@
+.wraper {
+    background: url(../img/bg.jpg) 100% 100% no-repeat;
+    position: relative;
+    margin: 0 auto;
+    width: 1280px;
+    height: 1060px;
+    z-index: 4;
+
+
+    /* TEST */
+
+
+
+}
+
+.box {
+
+}
+
+
+
+
+                /* HEADER */
+
+header {
+    width: 1000px;
+    height: 213px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 5;
+    border-bottom:1px solid #128aa7;
+
+
+    /*TEST*/
+}
+
+.logo {
+    position: relative;
+    top: 50px;
+    margin-left: 27px;
+}
+
+.logotxt {
+    margin-left: 98px;
+    position: relative;
+    top:-20px;
+    font: normal 12px 'Tahoma', sans-serif;
+    color: #128aa7;
+}
+
+.contacts_header {
+    position: relative;
+    float:right;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.contacts_header_list {
+
+
+    font:normal 12px 'Tahoma', sans-serif;
+    color: #128aa7;
+}
+
+.contacts_header_list:first-child {
+    font-weight: bold;
+
+}
+
+.logo_countries {
+    position: relative;
+    top:-50px;
+    left: 640px;
+}
+[alt="a_bit"] {
+    padding-right:16px;
+
+}
+
+.county_name {
+    font:normal 10px 'Thoma', sans-serif;
+    color: #128aa7;
+    text-decoration: underline;
+    padding-left: 7px;
+    padding-top:5px;
+}
+
+.county_name:nth-child(4) {
+    padding-right: 3px;
+}
+
+.county_name:nth-child(5) {
+    position: relative;
+    left:-10px;
+}
+
+.county_name:nth-child(6) {
+    position: relative;
+    left:-8px;
+}
+
+    /*underhead*/
+.underhead {
+    position: relative;
+    top:213px;
+    width: 1000px;
+    height: 237px;
+    margin:0 auto;
+}
+
+/*menu with dropdown */
+
+.menu {
+    width: 1004px;
+    height: 34px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 213px;
+    background: url(../img/drop_panel.png) 100% 100% no-repeat;
+}
+
+.nav_list_item_top {
+    float:left;
+    height: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-top: 8px; /*test*/
+    margin-left: 20px; /*test*/
+
+    color: #ffffff;
+    font:normal 14px 'Tahoma', sans-serif;
+
+    position: relative;
+    padding: 0 5px;
+}
+
+.font7 {
+    font-size: 10px;
+    padding-left: 3px;
+}
+
+.list_frist {
+    margin-left: 85px;
+}
+
+.inner_menu {
+    background: #343434;
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 20px;
+    margin: 0;
+    width: 150px;
+}
+
+/*.inner_li_first {
+    border-top:1px solid black;
+}*/
+
+.inner_li {
+    float: none;
+    display: block;
+    margin-left: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.time_to_drop1:hover .drop1 {
+    display:block;
+}
+
+.time_to_drop2:hover .drop2 {
+    display:block;
+}
+
+.time_to_drop3:hover .drop3 {
+    display:block;
+}
+
+.drop1, .drop2, .drop3 {
+    margin-top: 1px;
+    border-top:1px solid black;
+}
+
+.drop2 {
+    width: 100px;
+}
+.drop3 {
+    width: 130px;
+}
+
+/*end menu with dropdown*/
+
+.main_content {
+    width: 998px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    z-index: -1;
+    top: -5px;
+}
+
+.col_mid {
+    width: 50%;
+    float: left;
+    background: #ffffff;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    border-left: 1px solid #c7cacf;
+    border-right:1px solid #c7cacf;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.col_left, .col_right {
+    width: 25%;
+    float: left;
+    background: #edeef0;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.news_heading {
+    font:bold 18px Tahoma, sans-serif;
+    color: #424c43;
+    padding-top: 11px;
+    padding-bottom: 8px;
+}
+
+.news_strings {
+    font: 14px/1.7em Tahoma, sans-serif;
+    color: #424c43;
+}
+
+.news_strings:last-child {
+    padding-bottom: 11px;
+}
+
+/*.nhl {
+    text-transform: uppercase;
+}*/
+
+.smth {
+    visibility: hidden;
+}
+
+.foot_copy {
+    text-align: center;
+    color: #ffffff;
+    font: 12px Tahoma, sans-serif;
+    padding-top: 10px;
+}
